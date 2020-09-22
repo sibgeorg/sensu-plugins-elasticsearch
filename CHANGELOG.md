@@ -7,6 +7,10 @@ This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins
 
 ## [4.2.0] 2020-05-11
 ### Added
+- Updated check scripts to ignore cert verification.
+
+## [4.2.0] 2020-05-11
+### Added
 - Updated asset build targets to support centos6
 - Removed centos from bonsai asset definition
 - Updated bundler requirement from '~> 1.7' to '~> 2.1'
