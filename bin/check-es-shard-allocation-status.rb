@@ -94,6 +94,7 @@ class ESShardAllocationStatus < Sensu::Plugin::Check::CLI
                                    headers: headers)
         else
           RestClient::Resource.new("#{config[:scheme]}://#{config[:server]}:#{config[:port]}#{resource}",
+                                   verify_ssl: false,
                                    timeout: config[:timeout],
                                    headers: headers)
         end
