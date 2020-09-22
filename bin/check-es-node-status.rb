@@ -98,6 +98,7 @@ class ESNodeStatus < Sensu::Plugin::Check::CLI
                                    headers: headers)
         else
           RestClient::Resource.new("#{protocol}://#{config[:host]}:#{config[:port]}#{resource}",
+                                   verify_ssl: false,
                                    timeout: config[:timeout],
                                    headers: headers)
         end
