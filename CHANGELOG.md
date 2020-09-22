@@ -5,7 +5,7 @@ This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins
 
 ## [Unreleased]
 
-## [4.2.0] 2020-05-11
+## [4.2.1] 2020-05-11
 ### Added
 - Updated check scripts to ignore cert verification.
 
